@@ -33,7 +33,7 @@ public abstract class AbstractTest {
 
     @BeforeEach
     void initMainPage(){
-        Assertions.assertDoesNotThrow( ()-> getWebDriver().navigate().to("https://trial-sport.ru"),
+        Assertions.assertDoesNotThrow( ()-> getWebDriver().navigate().to("https://google.ru"),
                 "Страница не доступна");
         Assertions.assertTrue(true);
 
